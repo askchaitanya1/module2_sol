@@ -24,7 +24,7 @@ p {
 @media (min-width: 992px) {
   .col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid blue;
   }
   .col-dk-1 {
     width: 8.33%;
@@ -68,7 +68,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid yellow;
   }
   .col-tb-1 {
     width: 8.33%;
