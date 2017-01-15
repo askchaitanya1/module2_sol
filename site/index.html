@@ -2,20 +2,185 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Module2_sol</title>
-	<link rel = "stylesheet" href = "css\style.css">
+	<link rel = "stylesheet" type="text/css" href = "css\style.css">
+<style>
+
+	p{
+		background-color: #123456;
+		text-align: right;
+}
+
+q{
+	background-color: #123456;
+	float: right;
+	text-align: justify;
+}
+
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+  top: 60px;
+}
+#p1 {
+  background-color: #A52A2A;
+    }
+#p2 {
+  background-color: #DEB887;
+}
+#p3 {
+  background-color: #5F9EA0;
+  }	
+  
+  	.row {
+  width: 100%;
+  height: 250px;
+}
+
+/**** DESKTOP Version ****/
+@media (min-width: 992px){
+  .col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-dk-1 {
+    width: 8.33%;
+  }
+  .col-dk-2 {
+    width: 16.66%;
+  }
+  .col-dk-3 {
+    width: 25%;
+  }
+  .col-dk-4 {
+    width: 33.33%;
+  }
+  .col-dk-5 {
+    width: 41.66%;
+  }
+  .col-dk-6 {
+    width: 50%;
+  }
+  .col-dk-7 {
+    width: 58.33%;
+  }
+  .col-dk-8 {
+    width: 66.66%;
+  }
+  .col-dk-9 {
+    width: 74.99%;
+  }
+  .col-dk-10 {
+    width: 83.33%;
+  }
+  .col-dk-11 {
+    width: 91.66%;
+  }
+  .col-dk-12 {
+    width: 100%;
+  }
+}
+
+/**** TABLET version ****/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-tb-1 {
+    width: 8.33%;
+  }
+  .col-tb-2 {
+    width: 16.66%;
+  }
+  .col-tb-3 {
+    width: 25%;
+  }
+  .col-tb-4 {
+    width: 33.33%;
+  }
+  .col-tb-5 {
+    width: 41.66%;
+  }
+  .col-tb-6 {
+    width: 50%;
+  }
+  .col-tb-7 {
+    width: 58.33%;
+  }
+  .col-tb-8 {
+    width: 66.66%;
+  }
+  .col-tb-9 {
+    width: 74.99%;
+  }
+  .col-tb-10 {
+    width: 83.33%;
+  }
+  .col-tb-11 {
+    width: 91.66%;
+  }
+  .col-tb-12 {
+    width: 100%;
+  }
+}
+
+/**** MOBILE version ****/
+@media (max-width: 767px) {
+  .col-mo-1, .col-mo-2, .col-mo-3, .col-mo-4, .col-mo-5, .col-mo-6, .col-mo-7, .col-mo-8, .col-mo-9, .col-mo-10, .col-mo-11, .col-mo-12 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-mo-1 {
+    width: 8.33%;
+  }
+  .col-mo-2 {
+    width: 16.66%;
+  }
+  .col-mo-3 {
+    width: 25%;
+  }
+  .col-mo-4 {
+    width: 33.33%;
+  }
+  .col-mo-5 {
+    width: 41.66%;
+  }
+  .col-mo-6 {
+    width: 50%;
+  }
+  .col-mo-7 {
+    width: 58.33%;
+  }
+  .col-mo-8 {
+    width: 66.66%;
+  }
+  .col-mo-9 {
+    width: 74.99%;
+  }
+  .col-mo-10 {
+    width: 83.33%;
+  }
+  .col-mo-11 {
+    width: 91.66%;
+  }
+  .col-mo-12 {
+    width: 100%;
+  }
+}
+</style>
 </head>
 
 <body>
-<h1> Computer Technology and the various types</h1>
-<div class="row">
-  <div class="col-dk-3 col-tb-6 col-mo-12"><p> DESKTOP: A desktop computer is a personal computer designed for regular use at a single location on or near a desk or table due to its size and power requirements. </p></div>
-  
-  <div class="col-dk-3 col-tb-6 col-mo-12"><p> TABLET: A tablet computer, commonly shortened to tablet, is a thin, flat mobile computer with a touchscreen display, which is usually in color, processing circuitry, and a rechargeable battery in a single device. Tablets often come equipped with sensors, including digital cameras, a microphone, and an accelerometer, so that images on screens are always displayed upright.  </p></div>
 
-  <div class="col-dk-3 col-tb-6 col-mo-12"><p> MOBILE: A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. The radio frequency link establishes a connection to the switching systems of a mobile phone operator, which provides access to the public switched telephone network (PSTN). Most modern mobile telephone services use a cellular network architecture, and therefore mobile telephones are often also called cellular telephones or cell phones. </p></div>
-  <script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.5'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+f<h1> Computer Technology and various types</h1>
+<div class="row">
+  <div id=p1 class="col-dk-3 col-tb-6 col-mo-12"><p> DESKTOP: <q>A desktop computer is a personal computer designed for regular use at a single location on or near a desk or table due to its size and power requirements.</q> </p></div>
+  
+  <div id=p2 class="col-dk-3 col-tb-6 col-mo-12"><p> TABLET: <q> A tablet computer, commonly shortened to tablet, is a thin, flat mobile computer with a touchscreen display, which is usually in color, processing circuitry, and a rechargeable battery in a single device. </q></p></div>
+
+  <div id=p3 class="col-dk-3 col-tb-6 col-mo-12"><p> MOBILE: <q>A mobile phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. </q> </p></div>
+  
 </body>
 </html>
