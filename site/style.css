@@ -5,13 +5,13 @@
 h1 {
   margin-bottom: 15px;
   float: right;
-}
+ }
 
 q {
   border: 1px solid black;
   background-color: #A5621F;
   width: 90%;
-  height: 450px;
+  height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
